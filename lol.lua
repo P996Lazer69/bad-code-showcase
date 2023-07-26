@@ -1,4 +1,4 @@
-    wait(1.2)
+    wait(1.7)
     local players = game:GetService("Players")
     local localplayer = players.LocalPlayer
     
