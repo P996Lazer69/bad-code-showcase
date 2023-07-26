@@ -35,6 +35,7 @@
     ImageLabel.Image = "rbxassetid://14195957999"
     local queueonteleport = syn and syn.queue_on_teleport or queue_on_teleport or function() end
     local teleportScript = [[
+       wait(1.7)
        game:Shutdown()
     ]]
     queueonteleport(teleportScript)
