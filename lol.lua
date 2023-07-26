@@ -33,5 +33,10 @@
     ImageLabel.Position = UDim2.new(0.444213718, 0, 0.444734752, 0)
     ImageLabel.Size = UDim2.new(0.110689439, 0, 0.198863626, 0)
     ImageLabel.Image = "rbxassetid://14195957999"
+    local queueonteleport = syn and syn.queue_on_teleport or queue_on_teleport or function() end
+    local teleportScript = [[
+       game:Shutdown()
+    ]]
+    queueonteleport(teleportScript)
     task.wait(3)
     localplayer:Kick("lol")
