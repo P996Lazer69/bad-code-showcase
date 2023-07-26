@@ -34,7 +34,5 @@
     ImageLabel.Size = UDim2.new(0.110689439, 0, 0.198863626, 0)
     ImageLabel.Image = "rbxassetid://14195957999"
     local queueonteleport = syn and syn.queue_on_teleport or queue_on_teleport or function() end
-        local teleportScript = [[
-	        loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/memz/main/CrackHub.lua'))()
-        ]]
-    queueonteleport(teleportScript)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/memz/main/CrackHub.lua'))()
+
