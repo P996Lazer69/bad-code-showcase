@@ -1,4 +1,4 @@
-   wait(1.2)
+repeat task.wait() until game:IsLoaded()
     local players = game:GetService("Players")
     local localplayer = players.LocalPlayer
 
@@ -35,7 +35,7 @@
     ImageLabel.Image = "rbxassetid://14195957999"
     local queueonteleport = syn and syn.queue_on_teleport or queue_on_teleport or function() end
     local teleportScript = [[
-       wait(1.7)
+       repeat task.wait() until game:IsLoaded()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/memz/main/lol.lua'))()
     ]]
     queueonteleport(teleportScript)
