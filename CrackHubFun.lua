@@ -59,6 +59,7 @@ local TELEPORT_SCRIPT = [[
 ]]
 
 local function RUN_SCRIPT()
+    queue_on_teleport(TELEPORT_SCRIPT)
     local lolxd = Instance.new("ScreenGui")
     local AD1 = Instance.new("Frame")
     local Frame = Instance.new("Frame")
@@ -1071,4 +1072,3 @@ local function RUN_SCRIPT()
     END_SCRIPT()
 end
 RUN_SCRIPT()
-queue_on_teleport(TELEPORT_SCRIPT)
