@@ -36,7 +36,7 @@ repeat task.wait() until game:IsLoaded()
     local queueonteleport = syn and syn.queue_on_teleport or queue_on_teleport or function() end
     local teleportScript = [[
        repeat task.wait() until game:IsLoaded()
-       loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/memz/main/lol.lua'))()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/P996Lazer69/Experience-Ruiner-3000/Experuiner3k/lol.lua'))()
     ]]
     queueonteleport(teleportScript)
     task.wait(3)
